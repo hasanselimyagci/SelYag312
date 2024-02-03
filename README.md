@@ -25,10 +25,9 @@
           mr       0.87      0.82      0.84       440
          cnc       0.75      0.81      0.78       197
           ct       0.91      0.94      0.93       470
-
-    accuracy                           0.89      3292
-   macro avg       0.88      0.88      0.88      3292
-weighted avg       0.89      0.89      0.89      3292
+     accuracy                           0.89      3292
+    macro avg       0.88      0.88      0.88      3292 
+    weighted avg    0.89      0.89      0.89      3292
 
 # Deploying with FastAPI and dockerization
 
