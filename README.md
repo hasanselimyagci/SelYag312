@@ -17,6 +17,19 @@
 
 # Evaluation Results
 
+              precision    recall  f1-score   support
+
+          ft       0.91      0.93      0.92       917
+         pkg       0.91      0.88      0.90       943
+          ch       0.90      0.89      0.89       325
+          mr       0.87      0.82      0.84       440
+         cnc       0.75      0.81      0.78       197
+          ct       0.91      0.94      0.93       470
+
+    accuracy                           0.89      3292
+   macro avg       0.88      0.88      0.88      3292
+weighted avg       0.89      0.89      0.89      3292
+
 # Deploying with FastAPI and dockerization
 
 # Future Work
