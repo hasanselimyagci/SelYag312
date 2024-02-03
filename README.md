@@ -5,7 +5,7 @@
 
 # Data
 
-* Dataset used to train multi-class classification model consisted of 37k rows and 6 classes. You can find other exploratory insights about the data in the notebook file
+* Provided dataset is consisted of ~37k rows and 6 classes. You can find other exploratory insights about the data in the notebook file
 * Dataset was preprocessed to remove duplicates, missing values, non-german characters and labels refactorized to integer values before the training
 
 # Training 
