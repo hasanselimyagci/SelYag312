@@ -30,7 +30,8 @@
     weighted avg    0.89      0.89      0.89      3292
 
 
-(Note: The resulting model pushed to huggingface hub for easier loading.)
+> [!NOTE] 
+> The resulting model pushed to huggingface hub for easier loading
 
 # Deploying with FastAPI and dockerization
 
