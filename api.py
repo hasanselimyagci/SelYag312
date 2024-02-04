@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-import torch
+#import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 
