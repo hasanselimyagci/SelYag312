@@ -31,14 +31,14 @@
 
 
 > [!NOTE] 
-> The resulting model pushed to huggingface hub for easier loading
+> The resulting model is pushed to huggingface hub for easier load in api app
 
 # Deploying with FastAPI and dockerization
 
 * Final model is deployed with FastAPI framework. A POST method of 'predict' is receiving a text to be predicted and returns class label between 0-5 mapped to the classes in the dataset (being ft, pkg, ch, mr, cnc, ct respectively).
 * Then, to containerize the api 'Dockerfile' is created with the install requirements written on requirements.txt file. To build the docker image you can run:
   ```
-  docker build -t fastapi-app .
+  docker build -t yourapi-app .
   ```
 * And to run the image as container:
   ```
