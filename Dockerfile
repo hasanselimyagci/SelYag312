@@ -9,4 +9,4 @@ ADD . /app/
 
 EXPOSE 8005
 
-CMD ["uvicorn", "api:app", "-b", "0.0.0.0:8000", "--reload"]
+CMD ["uvicorn", "api:app", "--reload"]
