@@ -1,18 +1,10 @@
-# Python framework image
 FROM python:3.8-slim
 
+WORKDIR /app/
+ADD requirements.txt /app/
 
-# Setting up working directory
-WORKDIR /code
+RUN pip install -r requirements.txt
 
-# Copy requirements
-COPY src/requirements.txt /code/requirements.txt
+ADD . /app/
 
-# Install dependencies
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
-
-# Copy application code
-COPY src/app/ /code/app
-
-# Command to run the application
-CMD ["python", "api.py"]
+CMD ["uvicorn", "api:app", "--reload"]
