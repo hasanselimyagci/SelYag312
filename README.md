@@ -36,9 +36,11 @@
 
 * Final model is deployed with FastAPI framework. A POST method of 'predict' is receiving a text to be predicted and returns class label between 0-5 mapped to the classes in the dataset (being ft, pkg, ch, mr, cnc, ct respectively).
 * Then, to containerize the api 'Dockerfile' is created with the install requirements written on requirements.txt file. To build the docker image you can run:
-  '''docker build -t fastapi-app .'''
+  'docker build -t fastapi-app .'
 * And to run the image as container:
-  '''docker run -p 8000:8000 yourapi-app'''
+  '''
+  docker run -p 8000:8000 yourapi-app
+  '''
 * After running the command, the FastAPI application will be accessible on port 8000 of your local machine
 
 # Future Work
