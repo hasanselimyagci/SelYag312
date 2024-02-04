@@ -1,8 +1,11 @@
-version: '3'
-
+version: '3.8'
 services:
-  web:
-    build: .
-    command: sh -c "uvicorn app:app --reload --port=8000 --host=0.0.0.0"
-    ports:
-      - 8000:8000
+    api:
+        build: .
+        image: fastapiapp:latest
+        ports:
+            - 8005:8000
+        volumes:
+            - type: bind
+              source: .
+              target: /app/
