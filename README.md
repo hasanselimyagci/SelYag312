@@ -50,4 +50,4 @@
 
 * Techniques for better generalization in unknown data with different distribution than provided data will be explored such as: lowering batch size with trade off of longer training time, increasing data size either collecting more data or augmenting the set with synthetic data created by a large language model
 * Multilanguage model can be implemented to have a more robost model in case of different future use cases
-* Different REST API practices can be investigated as the projected application's needs may vary (event-based or two way communication, etc.)
+* Different REST API practices can be investigated as the projected application's needs may vary (event-based or two way communication)
